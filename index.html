@@ -18,24 +18,22 @@
   </head>
   <body>
 <!--navbar agregado-->
-<nav class="navbar navbar-expand-lg navbar-pink black">
-  <div class="container">
-    <a class="navbar-brand titulo" href="#">D</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+<nav class="navbar navbar-expand-lg navbar-dark naving text-light fixed-top ">
+<div class="container">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
 <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link text-white" href="#">Sobre mí</a></li>
-            <li class="nav-item"><a class="nav-link text-white" href="#">Experiencia</a></li>
-            <li class="nav-item"><a class="nav-link text-white" href="#">Trabajos</a></li>
-            <li class="nav-item"><a class="nav-link text-white" href="#">Contacto</a></li>
-         </ul>
-       </div>
-  </div>
+<ul class="navbar-nav ml-auto mr-5">
+<li class="nav-item"><a class="nav-link text-light naving font-weight-bold" href="#sobre">Sobre mí</a></li>
+<li class="nav-item"><a class="nav-link text-light naving font-weight-bold" href="#experiencia">Experiencia</a></li>
+<li class="nav-item"><a class="nav-link text-light naving font-weight-bold" href="#trabajos">Trabajos</a></li>
+<li class="nav-item"><a class="nav-link text-light naving font-weight-bold" href="#contacto">Contacto</a></li>
+</ul>
+</div>
+</div>
 </nav>
-
 <!--imagen-->
 <header class="hero text-light text-right pt-5 pb-0">
   <div class="container fluid">
@@ -43,10 +41,10 @@
   </div>
 </header>
 <!--      texto      -->
-<section id="sobre" class="container fondo">
+<section id="sobre-mi" class="container fondo">
    <div class="row">
       <div class="col-md-12 d-none d-md-block">
-          <p class="font-weight-bold text-center mt-4 mr-5 ml-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="font-weight-bold text-center mt-4 mr-5 ml-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
       <div class="col-md-6 d-none d-md-block">
           <p class="mt-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -100,24 +98,103 @@
           </a>
     </div>
 <!--mis trabajos-->
-<section id="experiencia" class="container-fluid text-center my-5 text-dark ml-auto mb-0">
-  <h2 class="display-4 font-weight-bold my-4 subtitulo">Mis Trabajos</h2>
-
-
-
-
-
-</section>
-  <body>
-    <footer >
-      <h2>Darling</h2>
-        <i class="fab fa-github-square"></i>
-        <i class="fab fa-linkedin"></i>
-        <i class="fab fa-twitter-square"></i>
-        <i class="fab fa-facebook-square"></i>
+<section id="trabajos" class="container-fluid text-center my-5 text-dark ml-auto mb-0">
+  <h2 class="display-4 font-weight-bold my-4 subtitulo">Mis Ultimos Trabajos</h2>
+<!--divicion cuadros-->
+<div class="row row-cols-1 row-cols-md-3 p-5">
+    <div class="col mb-4">
+         <div class="card" style="width: 18rem;">
+              <img src="assents/img/meet-coffee.png" class="card-img-top" alt="meet & coffee">
+                   <div class="card-body">
+                       <h3 class="card-title">Meet&Coffee</h3>
+                          <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien.</p>
+                   </div>
+         </div>
+    </div>
+    <div class="col mb-4">
+        <div class="card" style="width: 18rem;">
+            <img src="assents/img/iguana.png" class="card-img-top" alt="Iguana">
+                 <div class="card-body">
+                      <h3 class="card-title">Iguana</h3>
+                          <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien.</p>
+                 </div>
+        </div>
+    </div>
+    <div class="col mb-4">
+        <div class="card" style="width: 18rem;">
+            <img src="assents/img/suricata.png" class="card-img-top" alt="Suricata">
+                 <div class="card-body">
+                     <h3 class="card-title">Suricata</h3>
+                         <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien.</p>
+                </div>
+       </div>
+    </div>
+</div>
+<div class="row row-cols-1 row-cols-md-3 p-5">
+    <div class="col mb-4">
+         <div class="card" style="width: 18rem;">
+              <img src="assents/img/cuppon.png" class="card-img-top" alt="Cuppon">
+                   <div class="card-body">
+                        <h3 class="card-title">Cuppon</h3>
+                           <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien.</p>
+                   </div>
+        </div>
+    </div>
+    <div class="col mb-4">
+         <div class="card" style="width: 18rem;">
+              <img src="assents/img/ricomida.png" class="card-img-top" alt="Ricomida">
+                   <div class="card-body">
+                        <h3 class="card-title">Ricomida</h3>
+                            <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien.</p>
+                   </div>
+         </div>
+    </div>
+    <div class="col mb-4">
+        <div class="card" style="width: 18rem;">
+             <img src="assents/img/portafolio.png" class="card-img-top" alt="Portafolio">
+                  <div class="card-body">
+                       <h3 class="card-title">Portafolio</h3>
+                           <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien.</p>
+                  </div>
+        </div>
+    </div>
+</div>
+<!--contacto-->
+<footer id="contacto" class="pie-pagina">
+   <section class=" container my-5">
+     <h2 class="display-3 font-weight-bold my-4 text-center">CONTACTO</h2>
+        <br>
+           <h4>¿Quieres conocer más de mí?</h4>
+             <br>
+                 <div class="form-group">
+                     <label for="formGroupExampleInput" class="font-weight-bold">Nombre</label>
+                           <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingresa tu nombre">
+                 </div>
+                 <div class="form-group">
+                     <label for="exampleInputEmail1" class="font-weight-bold">Correo electrónico</label>
+                           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu correo electrónico">
+                 </div>
+                 <div class="contact-button-inner text-center">
+                     <button type="button" class="btn btn-lg btn-info black" data-toggle="tooltip" data-placement="bottom" title="Presiona para comenzar">Comenzar</button>
+                 </div>
+   </section>
+<br>
+    <section class="redes-sociales">
+      <h1>Darling</h1>
+         <div class="iconos">
+            <a href="https://www.facebook.com/darling.m.garcia.1">
+              <i class="fab fa-facebook-square fa-3x"></i></a>
+        <i class="fab fa-github-square fa-3x"></i>
+        <i class="fab fa-linkedin fa-3x"></i>
+        <i class="fab fa-twitter-square fa-3x"></i>
+          </div>
+    </section>
 </footer>
+<!--jquery 3.4.1.-->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<!--popper 1.16.0 -->
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<!--bootstrap 4.4.1-->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>

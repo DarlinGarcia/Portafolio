@@ -17,6 +17,7 @@
   color: pink;
 }
 
+
 .contacto1{
 background-color: #e83e8c;
 padding: 50px;
@@ -31,4 +32,20 @@ header {
   background-position: left;
   padding-bottom: 10rem;
   width: 100%;
+}
+
+.redes-sociales{
+  font-family: parisienne;
+  font-size: 50px;
+  background-color: pink;
+  display: block;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.iconos{
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 20px;
 }
